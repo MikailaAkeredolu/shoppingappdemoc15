@@ -4,9 +4,18 @@ public class Cloth {
     private double price;
     private Size size;
 
-    //getPrice
-    public double getPrice(){
-        return price;
+    public Cloth(String name, double price, Size size) {
+        this.name = name;
+        this.price = price;
+        this.size = size;
     }
 
+    //getPrice
+    public double getPrice(){
+        return this.price;
+    }
+
+    public Size getSize() {
+        return size;
+    }
 }

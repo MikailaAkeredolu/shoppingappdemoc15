@@ -10,4 +10,12 @@ public abstract class Person {
 
     public abstract void printInfo(); //signatures
 
+    //create a getter
+    public String getName(){
+        return this.name;
+    }
+
+    public Size getSize() {
+        return size;
+    }
 }
