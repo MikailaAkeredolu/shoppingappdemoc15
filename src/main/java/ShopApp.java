@@ -11,4 +11,9 @@ public class ShopApp {
 
 
 
+    public static double calculateSubTotal(Cloth[] cloths){
+        //do some magic
+        return 0.0;
+    }
+
 }

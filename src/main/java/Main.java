@@ -37,7 +37,9 @@ public class Main {
 
 
         HourlyEmployee hourlyEmployee = new HourlyEmployee("Alex",Size.L, clothingItems, 40.0f, 20.0);
-        hourlyEmployee.printInfo();
+        hourlyEmployee.setHoursWorked(-80.0f);
+        System.out.println(hourlyEmployee.getHoursWorked());
+        //hourlyEmployee.printInfo();
 
 
     }
