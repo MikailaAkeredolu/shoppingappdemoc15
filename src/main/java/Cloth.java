@@ -18,4 +18,11 @@ public class Cloth {
     public Size getSize() {
         return size;
     }
+
+
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

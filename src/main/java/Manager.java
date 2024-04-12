@@ -27,5 +27,11 @@ public class Manager extends Employee{
     @Override
     public void printInfo() {
         System.out.println(getName() + ":" + salary);
+        //loop through the arrays of clothing items
+        //print each clothing item
+        for(Cloth c: getClothingItems()){
+            System.out.println(c);
+        }
+
     }
 }

@@ -20,11 +20,17 @@ public class HourlyEmployee extends Employee{
 
     @Override
     public void printInfo() {
+        //name, how many hours they worked and their size
+        System.out.println(getName()+ " " + getHoursWorked() + " "+  getSize());
 
     }
 
     @Override
     public double calculatePay() {
-        return 0;
+        return hourlyWage * hoursWorked;
+    }
+
+    public float getHoursWorked() {
+        return hoursWorked;
     }
 }
